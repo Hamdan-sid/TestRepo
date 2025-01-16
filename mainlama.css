@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.nav1{
+    height: 42px;
+    background-color: #0F0F0F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt1{
+    font-size: 11.4px;
+    font-family: sans-serif;
+    font-weight: 560;
+    letter-spacing: 2.4px;
+}
+.nav2{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url("logo.webp");
+    background-size: cover;
+    height: 25px;
+    width: 76px;
+}
+.itemsnav{
+    height: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 930px;
+}
+.same{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #0F0F0F;
+}
+.same:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icons{
+    height: 97px;
+    width: 174px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#work{
+    height: 28px;
+    width: 28px;
+}
+.filterss{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.filter{
+    height: 45px;
+    width: 107px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border: 0.1px solid #0F0F0F;
+}
+#ff{
+    color: #0F0F0F;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#one{
+    margin-left:30px;
+}
+#two{
+    margin-right: 30px;
+}
+.filter2{
+    height: 45px;
+    width: 137px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border: 0.1px solid #0F0F0F;
+}
+.main{
+    height: 2800px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.firstimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("a.webp");
+    background-size: cover;
+    background-position: center;
+   
+}
+#forhov:hover{
+    flex-grow: 2;
+    transition: all 1s ease-out 0.2s;
+}
+.linen{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #0F0F0F;
+    letter-spacing: 1px;
+    padding-top:490px;
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    line-height: 1.1rem;
+}
+.price{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #0F0F0F;
+    padding-top: 7px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.secondimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("b.webp");
+    background-size: cover;
+    background-position: center;
+}
+.thirdimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("c.webp");
+    background-size: cover;
+    background-position: center;
+}
+.fourthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("d.webp");
+    background-size: cover;
+    background-position: center;
+}
+.fifthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("e.webp");
+    background-size: cover;
+    background-position: center;
+}
+.sixthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("f.webp");
+    background-size: cover;
+    background-position: center;
+}
+.seventhimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("g2.webp");
+    background-size: cover;
+    background-position: center;
+}
+.eighthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("h.webp");
+    background-size: cover;
+    background-position: center;
+}
+.ninthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("i2.webp");
+    background-size: cover;
+    background-position: center;
+}
+.tenthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("j.webp");
+    background-size: cover;
+    background-position: center;
+}
+.eleventhimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("k.webp");
+    background-size: cover;
+    background-position: center;
+}
+.twelvethimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("l.webp");
+    background-size: cover;
+    background-position: center;
+}
+.thirteenthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("m.webp");
+    background-size: cover;
+    background-position: center;
+}
+.fourteenthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("n.webp");
+    background-size: cover;
+    background-position: center;
+}
+.fifteenthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("o.webp");
+    background-size: cover;
+    background-position: center;
+}
+.sixteenthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("p.webp");
+    background-size: cover;
+    background-position: center;
+}
+.seventeenthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("q.webp");
+    background-size: cover;
+    background-position: center;
+}
+.eighteenthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("NEW1.webp");
+    background-size: cover;
+    background-position: center;
+}
+.ninteenthimg{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("NEW.webp");
+    background-size: cover;
+    background-position: center;
+}
+.two0img{
+    height: 480px;
+    width: 23.5%;
+    background-image: url("u.webp");
+    background-size: cover;
+    background-position: center;
+}
+.footpanel{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 220px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+.abt{
+    font-weight: 100;
+}
+.foot2{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 22%;
+}
+.foot3{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 22%;
+}
+#sign{
+   font-family: sans-serif;
+   font-size: 13px;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+
+}
+#subs{
+    font-family: sans-serif;
+   font-size: 13px;
+   cursor: pointer;
+    line-height: 1.4rem;
+}
+#subs2{
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+#subs3{
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.inp{
+    border: none;
+    border-bottom: 1px solid black;
+    line-height: 2rem;
+    color: #0F0F0F;
+    text-decoration: none;
+    cursor: pointer;
+}
+.endfooter{
+    display: flex;
+    justify-content: center;
+}
